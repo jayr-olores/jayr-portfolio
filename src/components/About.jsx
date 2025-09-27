@@ -11,7 +11,7 @@ function About() {
           <img
             src={profile}
             alt="Profile"
-            className="w-[440px] h-[440px] object-cover rounded-t-2xl"
+            className="w-[440px] h-[440px] object-cover rounded-t-2xl mt-20"
           />
           <div className="p-6">
             <h2 className="text-xl font-bold text-gray-900">Jay-r</h2>
