@@ -13,3 +13,62 @@ main {
 section {
   min-height: 100vh; /* each section fills screen */
 }
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 4s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes spin-slower {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+@keyframes orbit {
+  0% { transform: rotate(0deg) translateX(200px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(200px) rotate(-360deg); }
+}
+
+@keyframes orbit-reverse {
+  0% { transform: rotate(0deg) translateX(160px) rotate(0deg); }
+  100% { transform: rotate(-360deg) translateX(160px) rotate(360deg); }
+}
+
+.animate-orbit {
+  animation: orbit linear infinite;
+}
+
+.animate-orbit-reverse {
+  animation: orbit-reverse linear infinite;
+}
+
+/* Variants for different timings */
+.orbit-slow {
+  animation-duration: 20s;
+}
+.orbit-medium {
+  animation-duration: 30s;
+}
+.orbit-fast {
+  animation-duration: 40s;
+}
+.orbit-delay-1 {
+  animation-delay: 3s;
+}
+.orbit-delay-2 {
+  animation-delay: 6s;
+}
+.orbit-delay-3 {
+  animation-delay: 9s;
+}
+
+
