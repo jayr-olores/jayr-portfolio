@@ -8,8 +8,8 @@ function Projects() {
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mt-4">Pinned Projects</h2>
         <p className="text-gray-500 mt-2 max-w-2xl mx-auto">
-          Here are some of my featured projects, showcasing my skills in full-stack
-          development and problem-solving.
+          Here are some of my featured projects, showcasing my skills in
+          full-stack development and problem-solving.
         </p>
       </div>
 
@@ -30,8 +30,8 @@ function Projects() {
           <div className="p-5 flex flex-col flex-grow">
             <h3 className="text-lg font-semibold mb-2">Portfolio Website</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              A personal portfolio to showcase my projects, skills, and experiences
-              with a modern responsive design.
+              A personal portfolio to showcase my projects, skills, and
+              experiences with a modern responsive design.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-blue-100 text-blue-600 text-xs font-medium px-2 py-1 rounded-full">
@@ -43,6 +43,24 @@ function Projects() {
               <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
                 Firebase
               </span>
+            </div>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="https://live-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/your-repo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
@@ -62,8 +80,8 @@ function Projects() {
           <div className="p-5 flex flex-col flex-grow">
             <h3 className="text-lg font-semibold mb-2">Task Manager App</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              A productivity tool that helps users organize tasks, set deadlines,
-              and track progress efficiently.
+              A productivity tool that helps users organize tasks, set
+              deadlines, and track progress efficiently.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-purple-100 text-purple-700 text-xs font-medium px-2 py-1 rounded-full">
@@ -75,6 +93,24 @@ function Projects() {
               <span className="bg-gray-100 text-gray-700 text-xs font-medium px-2 py-1 rounded-full">
                 MongoDB
               </span>
+            </div>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="https://live-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/your-repo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
@@ -94,8 +130,8 @@ function Projects() {
           <div className="p-5 flex flex-col flex-grow">
             <h3 className="text-lg font-semibold mb-2">E-Commerce Store</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              A full-stack online store with product listings, a shopping cart, and
-              secure payment integration.
+              A full-stack online store with product listings, a shopping cart,
+              and secure payment integration.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2 py-1 rounded-full">
@@ -107,6 +143,24 @@ function Projects() {
               <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
                 PostgreSQL
               </span>
+            </div>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="https://live-demo-link.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/your-repo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
+              >
+                Code
+              </a>
             </div>
           </div>
         </div>
