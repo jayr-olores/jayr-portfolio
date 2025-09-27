@@ -14,23 +14,28 @@ section {
   min-height: 100vh; /* each section fills screen */
 }
 
-@keyframes bounce-slow {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-.animate-bounce-slow {
-  animation: bounce-slow 4s ease-in-out infinite;
-}
-
 @keyframes spin-slow {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
 }
 
 @keyframes spin-slower {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(-360deg); }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+.animate-spin-slower {
+  animation: spin-slower 35s linear infinite;
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+.animate-bounce {
+  animation: bounce-slow 6s ease-in-out infinite;
 }
 
 @keyframes orbit {
