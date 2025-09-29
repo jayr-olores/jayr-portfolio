@@ -27,7 +27,15 @@ function Header() {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+    <header
+      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300
+    ${
+      activeSection === "home"
+        ? "md:bg-transparent md:shadow-none bg-white shadow-md"
+        : "bg-white shadow-md"
+    }
+  `}
+    >
       <div className="w-11/12 md:w-4/5 mx-auto flex items-center justify-between py-6">
         {/* Left: Logo */}
         <div className="flex items-center">
@@ -59,14 +67,26 @@ function Header() {
         </div>
 
         {/* Hamburger (mobile only) */}
+        {/* Hamburger / Close button */}
         <button
-          className="md:hidden flex flex-col gap-1.5"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Toggle menu"
+          className="md:hidden flex flex-col justify-center items-center w-8 h-8 relative z-50"
         >
-          <span className="w-6 h-0.5 bg-black"></span>
-          <span className="w-6 h-0.5 bg-black"></span>
-          <span className="w-6 h-0.5 bg-black"></span>
+          <span
+            className={`block w-6 h-0.5 bg-gray-800 rounded transition-transform duration-300 ease-in-out ${
+              isMenuOpen ? "rotate-45 translate-y-1.5" : ""
+            }`}
+          ></span>
+          <span
+            className={`block w-6 h-0.5 bg-gray-800 rounded my-1 transition-opacity duration-300 ${
+              isMenuOpen ? "opacity-0" : "opacity-100"
+            }`}
+          ></span>
+          <span
+            className={`block w-6 h-0.5 bg-gray-800 rounded transition-transform duration-300 ease-in-out ${
+              isMenuOpen ? "-rotate-45 -translate-y-1.5" : ""
+            }`}
+          ></span>
         </button>
       </div>
 
@@ -87,8 +107,14 @@ function Header() {
               {link.charAt(0).toUpperCase() + link.slice(1)}
             </a>
           ))}
-          <div className="text-green-600 font-semibold text-lg mt-4">
-            Available
+
+          {/* pinging Available for mobile */}
+          <div className="flex items-center gap-2">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+            </span>
+            <span className="text-green-600 font-semibold">Available</span>
           </div>
         </div>
       )}
