@@ -71,12 +71,12 @@ function Home() {
 
               <div className="bg-purple-50 rounded-xl p-4 shadow-sm text-center">
                 <p className="text-gray-600 text-sm">Projects Done</p>
-                <p className="text-3xl font-extrabold text-purple-600">3+</p>
+                <p className="text-3xl font-extrabold text-purple-600">2</p>
               </div>
 
               <div className="bg-pink-50 rounded-xl p-4 shadow-sm text-center">
                 <p className="text-gray-600 text-sm">Happy Clients</p>
-                <p className="text-3xl font-extrabold text-pink-600">2+</p>
+                <p className="text-3xl font-extrabold text-pink-600">2</p>
               </div>
             </div>
           </div>

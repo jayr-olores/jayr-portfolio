@@ -1,4 +1,5 @@
 import portfolio from "../assets/portfolio.png";
+import unitechhr from "../assets/unitechhr.png";
 
 function Projects() {
   return (
@@ -37,13 +38,10 @@ function Projects() {
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-blue-100 text-blue-600 text-xs font-medium px-2 py-1 rounded-full">
-                React
+                React.js
               </span>
               <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-2 py-1 rounded-full">
-                Tailwind
-              </span>
-              <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
-                Github
+                Tailwind.css
               </span>
               <span className="bg-orange-100 text-orange-700 text-xs font-medium px-2 py-1 rounded-full">
                 Cloudflare
@@ -59,7 +57,7 @@ function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/your-repo"
+                href="https://github.com/jayr-olores/jayr-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
@@ -74,34 +72,39 @@ function Projects() {
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col">
           <div className="relative">
             <img
-              src="https://picsum.photos/601/400"
+              src={unitechhr}
               alt="Project 2"
               className="w-full h-60 object-cover"
             />
-            <span className="absolute top-3 left-3 bg-yellow-500 text-white text-xs font-medium px-3 py-1 rounded-full shadow">
-              In Progress
+            <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-medium px-3 py-1 rounded-full shadow">
+              Deployed
             </span>
           </div>
           <div className="p-5 flex flex-col flex-grow">
-            <h3 className="text-lg font-semibold mb-2">Task Manager App</h3>
+            <h3 className="text-lg font-semibold mb-2">Smart HRIS Website</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              A productivity tool that helps users organize tasks, set
-              deadlines, and track progress efficiently.
+              A Smart HRIS solution to streamline recruitment, onboarding, employee profiling, and professional development.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
-              <span className="bg-purple-100 text-purple-700 text-xs font-medium px-2 py-1 rounded-full">
+              <span className="bg-blue-100 text-blue-600 text-xs font-medium px-2 py-1 rounded-full">
+                React.js
+              </span>
+              <span className="bg-green-100 text-green-600 text-xs font-medium px-2 py-1 rounded-full">
                 Node.js
               </span>
-              <span className="bg-blue-100 text-blue-700 text-xs font-medium px-2 py-1 rounded-full">
-                Express
+              <span className="bg-yellow-100 text-yellow-700 text-xs font-medium px-2 py-1 rounded-full">
+                Tailwind
               </span>
-              <span className="bg-gray-100 text-gray-700 text-xs font-medium px-2 py-1 rounded-full">
-                MongoDB
+              <span className="bg-red-100 text-red-700 text-xs font-medium px-2 py-1 rounded-full">
+                Firebase
+              </span>
+              <span className="bg-orange-100 text-orange-700 text-xs font-medium px-2 py-1 rounded-full">
+                Python
               </span>
             </div>
             <div className="flex gap-3 mt-4">
               <a
-                href="https://live-demo-link.com"
+                href="https://capstone-unitechhr-hr-department.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
@@ -109,7 +112,7 @@ function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/your-repo"
+                href="https://github.com/jayr-o1/capstone-unitechhr-hr-department"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
@@ -133,25 +136,24 @@ function Projects() {
             </span>
           </div>
           <div className="p-5 flex flex-col flex-grow">
-            <h3 className="text-lg font-semibold mb-2">E-Commerce Store</h3>
+            <h3 className="text-lg font-semibold mb-2">Scholarship App</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              A full-stack online store with product listings, a shopping cart,
-              and secure payment integration.
+              A mobile app to manage scholarship applications, reviews, and awards with user authentication and notifications.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2 py-1 rounded-full">
-                Next.js
+                Kotlin
               </span>
               <span className="bg-indigo-100 text-indigo-700 text-xs font-medium px-2 py-1 rounded-full">
-                Stripe
+                Android Studio
               </span>
               <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
-                PostgreSQL
+                Firebase
               </span>
             </div>
             <div className="flex gap-3 mt-4">
               <a
-                href="https://live-demo-link.com"
+                href="https://github.com/jayr-olores/capstone-intprog-final-scholarlink/releases/tag/v0.0.1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
@@ -159,7 +161,7 @@ function Projects() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/your-repo"
+                href="https://github.com/jayr-olores/capstone-intprog-final-scholarlink"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
