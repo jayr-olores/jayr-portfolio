@@ -16,7 +16,7 @@ function About() {
           <div className="p-6">
             <h2 className="text-xl font-bold text-gray-900">Jay-r</h2>
             <p className="text-gray-500 font-medium mt-1 font-bold">
-              Aspiring Software Developer
+              Software Developer
             </p>
           </div>
         </div>
