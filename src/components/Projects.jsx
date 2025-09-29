@@ -1,8 +1,10 @@
+import portfolio from "../assets/portfolio.png";
+
 function Projects() {
   return (
     <section id="projects" className="w-11/12 md:w-4/5 mx-auto py-20">
       {/* Section Header */}
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 mt-24">
         <span className="inline-block px-4 py-1 text-blue-600 font-semibold bg-blue-50 rounded-full shadow-sm">
           🚀 My Works
         </span>
@@ -19,7 +21,7 @@ function Projects() {
         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col">
           <div className="relative">
             <img
-              src="https://picsum.photos/600/400"
+              src={portfolio}
               alt="Project 1"
               className="w-full h-60 object-cover"
             />
@@ -41,12 +43,15 @@ function Projects() {
                 Tailwind
               </span>
               <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
-                Firebase
+                Github
+              </span>
+              <span className="bg-orange-100 text-orange-700 text-xs font-medium px-2 py-1 rounded-full">
+                Cloudflare
               </span>
             </div>
             <div className="flex gap-3 mt-4">
               <a
-                href="https://live-demo-link.com"
+                href="https://jayr-portfolio.pages.dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
