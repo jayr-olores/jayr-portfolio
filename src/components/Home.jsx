@@ -48,7 +48,7 @@ function Home() {
 
         {/* Middle: Hero Image */}
         <div className="relative flex justify-center order-first md:order-none">
-          <div className="relative w-[32rem] h-[32rem] flex items-center justify-center">
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-[32rem] md:h-[32rem] flex items-center justify-center">
             {/* Orbit Rings */}
             <div className="absolute w-[28rem] h-[28rem] border border-blue-200 rounded-full animate-spin-slow"></div>
             <div className="absolute w-[22rem] h-[22rem] border border-purple-200 rounded-full animate-spin-slower"></div>
