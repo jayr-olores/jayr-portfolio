@@ -136,7 +136,7 @@ function About() {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/file/d/1XCp514_5QudyD1mmm5vGHSHGVgfC2Q1r/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lG4dqaxT56nJZAGfmV2LsMFPQ1YsAnON/view?usp=sharing"
                 className="flex items-center justify-center gap-2 border border-[#008cff] text-[#008cff] px-6 py-3 rounded-lg font-medium shadow hover:bg-blue-50 transition"
               >
                 <Download className="w-5 h-5" /> {/* Icon */}
