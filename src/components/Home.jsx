@@ -32,7 +32,7 @@ function Home() {
 
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
               <a
-                href="https://drive.google.com/file/d/1XCp514_5QudyD1mmm5vGHSHGVgfC2Q1r/view?usp=sharing"
+                href="https://drive.google.com/file/d/1lG4dqaxT56nJZAGfmV2LsMFPQ1YsAnON/view?usp=sharing"
                 className="flex items-center justify-center gap-2 bg-[#008cff] text-white px-6 py-3 rounded-lg font-medium shadow hover:bg-blue-600 transition"
               >
                 <Download className="w-5 h-5" />
