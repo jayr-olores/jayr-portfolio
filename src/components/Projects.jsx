@@ -1,6 +1,6 @@
 import portfolio from "../assets/portfolio.png";
 import unitechhr from "../assets/unitechhr.png";
-import threadhaus from "../assets/threadhaus.png";
+import threadhaus from "../assets/threadhaus-1.png";
 
 function Projects() {
   return (
@@ -188,7 +188,8 @@ function Projects() {
           <div className="p-5 flex flex-col flex-grow">
             <h3 className="text-lg font-semibold mb-2">ThreadHaus Apparel</h3>
             <p className="text-gray-600 text-sm mb-4 flex-grow">
-              An apparel website for t-shirts, jackets, jeans, and shorts.
+              An e‑commerce apparel website focused on modern, responsive shopping for
+              t‑shirts, jackets, jeans, and shorts.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2 py-1 rounded-full">
