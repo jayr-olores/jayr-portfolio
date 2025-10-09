@@ -1,5 +1,6 @@
 import portfolio from "../assets/portfolio.png";
 import unitechhr from "../assets/unitechhr.png";
+import threadhaus from "../assets/threadhaus.png";
 
 function Projects() {
   return (
@@ -162,6 +163,55 @@ function Projects() {
               </a>
               <a
                 href="https://github.com/jayr-olores/capstone-intprog-final-scholarlink"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 4 */}
+        <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition flex flex-col">
+          <div className="relative">
+            <img
+              src={threadhaus}
+              alt="Project 4"
+              className="w-full h-60 object-cover"
+            />
+            <span className="absolute top-3 left-3 bg-yellow-600 text-white text-xs font-medium px-3 py-1 rounded-full shadow">
+              In Progress
+            </span>
+          </div>
+          <div className="p-5 flex flex-col flex-grow">
+            <h3 className="text-lg font-semibold mb-2">ThreadHaus Apparel</h3>
+            <p className="text-gray-600 text-sm mb-4 flex-grow">
+              An apparel website for t-shirts, jackets, jeans, and shorts.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-auto">
+              <span className="bg-pink-100 text-pink-600 text-xs font-medium px-2 py-1 rounded-full">
+                React.js
+              </span>
+              <span className="bg-indigo-100 text-indigo-700 text-xs font-medium px-2 py-1 rounded-full">
+                Tailwind
+              </span>
+              <span className="bg-green-100 text-green-700 text-xs font-medium px-2 py-1 rounded-full">
+                Node.js
+              </span>
+            </div>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="https://threadhaus-portfolio.vercel.app/#home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+              >
+                Live Demo
+              </a>
+              <a
+                href="https://github.com/jayr-olores/threadhaus-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-100"
